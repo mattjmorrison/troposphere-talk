@@ -1,0 +1,24 @@
+{
+  "name": "Claims",
+  "environments": {
+    "staging": {
+      "version": 3,
+      "beanstalk": {
+        "domain": "claimsapitest.testimtapps.com"
+      },
+      "cloudfront": {
+        "domain": "claimstest.testimtapps.com"
+      }
+    },
+    "production": {
+      "version": 2,
+      "beanstalk": {
+        "domain": "claimsapi.testimtapps.com",
+        "instance": "m4.xlarge"
+      },
+      "cloudfront": {
+        "domain": "claims.testimtapps.com"
+      }
+    }
+  }
+}

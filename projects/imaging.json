@@ -1,0 +1,23 @@
+{
+  "name": "Imaging",
+  "environments": {
+    "staging": {
+      "version": 3,
+      "beanstalk": {
+        "domain": "imagingapitest.testimtapps.com"
+      },
+      "cloudfront": {
+        "domain": "imagingtest.testimtapps.com"
+      }
+    },
+    "production": {
+      "version": 2,
+      "beanstalk": {
+        "domain": "imagingapi.testimtapps.com"
+      },
+      "cloudfront": {
+        "domain": "imaging.testimtapps.com"
+      }
+    }
+  }
+}
